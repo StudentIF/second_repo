@@ -1,0 +1,50 @@
+/*-----------------------------------------------
+smartphone landscape
+-----------------------------------------------*/
+
+/**
+@media screen and (min-width: 480px) {
+  /*******   body{      background: navy;    }    ***/
+
+/**
+   .main-header {
+     display: flex;
+   }
+
+   .main-nav-line {
+     margin: 20px 20px;
+   }
+
+}
+
+**/
+
+
+/*-----------------------------------------------
+large tablests   normal desktop
+-----------------------------------------------*/
+
+
+@media screen and (min-width: 660px) {
+  /***   body{     background: darkgreen;  }   **/
+
+  .main-header {
+    flex-direction: unset;
+    justify-content: space-between;
+  }
+
+  .main-header-logo {
+    max-width: unset;
+    max-height: 80px;
+    margin: 0 auto 20px;
+  }
+
+  .links {
+    flex-direction: row;
+  }
+
+  .links_link {
+    width: 30% ;
+  }
+
+}

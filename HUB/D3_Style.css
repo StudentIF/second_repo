@@ -1,0 +1,90 @@
+/*----------------------
+this is the small screen mobile version
+larger screen are handled by  D3_StyleMedia.css
+links are not quite working yet.
+----------------------*/
+
+* {
+  font-family: 'ProximaNova-Regular', sans-serif;
+}
+
+/*----------------------
+top navigation
+----------------------*/
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.main-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-header-logo {
+  max-width: 30%;
+  margin-left: 35% ;
+}
+
+
+.main-nav-line {
+  margin: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+a:hover {
+  color:  #7A5B5A;
+}
+
+
+/*----------------------
+backgorund picure & text
+----------------------*/
+.picture {
+  background-image: url("students-bg-cropped.jpg");
+  min-height: 413px;
+  text-align: center;
+  background-size: cover;
+}
+
+.picture_title {
+  padding: 50px 0;
+  font-size: 2em;
+}
+
+.picture_text {
+  font-weight:  200;
+  line-height: 1.5;
+}
+
+.text_white {
+  color: #ffffff;
+}
+
+/*----------------------
+bottom boxes
+----------------------*/
+
+.links {
+  display: flex;
+  /*** justify-content: center;   ***/
+  flex-direction: column;
+}
+
+.links_link {
+  margin: 20px;
+  padding: 20px;
+  background-color:  #eeeeee;
+}
+
+.links_link_logo {
+   /*    max-width: 30%;   */
+  height: 90px;
+  margin: 0 auto 30px;    /*-- why does this not work?  */
+  display: block;
+}
